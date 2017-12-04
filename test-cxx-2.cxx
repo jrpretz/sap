@@ -13,5 +13,12 @@ int main(){
       cout<<mstack["matrix"][i][j]<<"=?="<<i*j<<endl;
     }
   } 
+
+  cout<<mstack["matrix_two"].columns()<<","<<mstack["matrix_two"].rows()<<endl;
+  for(unsigned i = 0 ; i < mstack["matrix_two"].columns() ; i++){
+    for(unsigned j = 0 ; j < mstack["matrix_two"].rows() ; j++){
+      cout<<mstack["matrix_two"][i][j]<<"=?="<<i+j<<endl;
+    }
+  } 
   
 }

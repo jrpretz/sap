@@ -10,4 +10,12 @@ for i in range(100):
 matrixCollection = {}
 matrixCollection["matrix"] = matrix
 
+matrix = np.zeros(shape=(20,50))
+
+for i in range(20):
+    for j in range(50):
+        matrix[i][j] = i + j
+
+matrixCollection["matrix_two"] = matrix
+
 sap.write("python-write.dat",matrixCollection)
