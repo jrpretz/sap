@@ -1,6 +1,6 @@
 import sap
 
-matrixstack_read = sap.read("python-write.dat")
+matrixstack_read = sap.read("cxx-write.dat")
 
 print matrixstack_read.keys(),"expect ['matrix']"
 
